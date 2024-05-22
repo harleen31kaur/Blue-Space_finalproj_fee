@@ -1,0 +1,50 @@
+
+body {
+  background-image: url('Back1.jpg');
+}
+
+/* .experiences-image{
+background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsMzYyNjkxODE2NDItcHVibGljLWltYWdlLWtvbnFxczZlLmpwZw.jpg');
+background-size: cover;
+
+
+} */
+
+/* CSS styling for the box */
+.custom-box {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.custom-figure {
+  width: 450px;
+  height:300px;
+  border: 5px solid rgb(11, 11, 11);
+  padding: 10px;
+  box-shadow: 1px 2px 3px gray;
+  transition: transform 500ms;
+  margin-top: 20px;
+  background-color: rgb(212, 200, 200);
+}
+
+.custom-image {
+  width: 100%;
+  height: 220px;
+}
+
+.custom-figure:hover {
+  transform: scale(1.1);
+}
+
+.custom-figcaption {
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.custom-link-art{
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,90 @@
+ 
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .festival-container {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .festival-background {
+    width: 100%;
+    position: relative;
+  }
+  
+  .festival-background img {
+    display: block;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+  
+  .festival-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+  }
+  .festival-text h1{
+    color: #f0f0f0;
+  }
+  .festival-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .festival-figure {
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 1px 2px 3px gray;
+    transition: transform 500ms;
+    margin: 20px;
+  }
+  
+  .festival-figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .festival-figure:hover {
+    transform: scale(1.1);
+  }
+  
+  .festival-caption {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .festival-header {
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+    font-style: oblique;
+    font-weight: bold;
+  }
+   
+   
+
+
+
+
+
+

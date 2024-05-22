@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.background-container {
+    background-image: url('https://st2.depositphotos.com/2696723/48161/i/450/depositphotos_481613506-stock-photo-india-map-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100%;
+    width:100%;
+    background-position: center;
+    filter:brightness(70%);
+    z-index:-1;
+    top:0;
+    left:0;
+    position: fixed;
+
+}
+.animated_heading
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #f2f1f5 20%,
+    #44107a 29%,
+    #0b8b3e 67%,
+    #f48d16 70%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  content: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 25px;
+ 
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.container123{
+
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:5rem;
+} 
+figure{
+    width:260px;
+   /* border:2px solid grey; */
+    padding:10px;
+   /* box-shadow: 1px 2px 3px rgba(0,0,0,0.26); */
+    transition: 600ms;
+}
+figure h1{
+    text-align: center;
+    color:white;
+}
+figure p{
+   color:white;
+    text-align: center;
+}
+figure a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+}
+figure img{
+   object-fit: cover;
+    width: 250px;
+   height: 250px;
+}
+figure:hover{
+    transform: scale(1.1);
+}
+figure hr{
+border-top: 1px solid white;
+}
+
+figuration p{
+    display: flex;
+    flex-direction: column;
+}

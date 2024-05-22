@@ -1,0 +1,164 @@
+/* chandigarh.css */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 
+.background-image-chd{
+     
+     background-repeat: no-repeat;
+     background-size: cover;
+     justify-content: center;
+    align-items: center;
+} */
+
+.background-chd {
+    margin-left: 120px;
+    margin-right: auto;
+}
+
+.background-chd img {
+    height: 500px;
+    width: 90%;
+}
+
+.chandigarh {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chandigarh h1 {
+    /* color: rgb(119, 110, 110); */
+    color: white;
+    font-size: 80px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.container-chd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 200px;
+}
+
+.logo img {
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+}
+
+.website h3,
+.map h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.website a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.map a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.map img {
+    max-width: 100px;
+    margin-right: 80px;
+    width: 150px;
+    height: 100px;
+}
+
+.bigmap {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bigmap iframe {
+    border: 0;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+
+
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
